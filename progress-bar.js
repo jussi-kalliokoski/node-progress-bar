@@ -79,8 +79,7 @@ ProgressBar.prototype = {
 				graph			+
 				this.symbols.rightBorder;
 
-		this._output.cursorTo(0);
-		this._output.clearLine(1);
+		this.clear();
 
 		var line = this.format.replace(this.interpreter, function(str, valueName, padding, pad){
 			padding	= arguments[3] || 0;
@@ -107,6 +106,13 @@ ProgressBar.prototype = {
 			return val;
 		});
 		this._output.write(line);
+	},
+	/**
+	 * Clears the progress bar off the screen.
+	*/
+	clear: function(){
+		this._output.cursorTo(0);
+		this._output.clearLine(1);
 	}
 }
 
