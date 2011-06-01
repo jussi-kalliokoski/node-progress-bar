@@ -12,8 +12,6 @@ $ npm install progress-bar
 
 ```
 
-![[★★★★★★★★★★★★★★★★★★★★★★★★★] 100% loaded.](https://github.com/jussi-kalliokoski/node-progress-bar/raw/master/screenshot.png)
-
 Usage
 -----
 
@@ -26,6 +24,8 @@ var	bar	= require('progress-bar').create(process.stdout);
 bar.update(0.5);
 
 ```
+
+![[★★★★★★★★★★★★★★★★★★★★★★★★★] 100% loaded.](https://github.com/jussi-kalliokoski/node-progress-bar/raw/master/screenshot.png)
 
 Documentation
 -------------
