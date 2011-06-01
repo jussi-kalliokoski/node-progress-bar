@@ -12,7 +12,7 @@ $ npm install progress-bar
 
 ```
 
-![[★★★★★★★★★★★★★★★★★★★★★★★★★] 100% loaded.](screenshot.png)
+![[★★★★★★★★★★★★★★★★★★★★★★★★★] 100% loaded.](https://github.com/jussi-kalliokoski/node-progress-bar/raw/master/screenshot.png)
 
 Usage
 -----
