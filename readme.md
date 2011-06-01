@@ -12,6 +12,8 @@ $ npm install progress-bar
 
 ```
 
+![[★★★★★★★★★★★★★★★★★★★★★★★★★] 100% loaded.](screenshot.png)
+
 Usage
 -----
 
