@@ -28,6 +28,6 @@ bar.update(0.5);
 Documentation
 -------------
 
-JSDocs coming soon...
+JSDocs can be found at http://niiden.com/node-progress-bar/jsdoc/ .
 
 MIT License
